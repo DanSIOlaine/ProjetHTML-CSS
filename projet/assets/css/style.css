@@ -1,0 +1,135 @@
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+.bandeau{
+    height: 50px;
+    width: 100%;
+    background-color: #fec5bb;
+}
+
+.bouton_bandeau{
+    height: 40px;
+    width: 100%;
+    margin-top:5px;
+}
+
+.bouton_0 {
+
+
+    display: inline-block;
+    margin: 15px ;
+    color: white;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 10%;
+}
+
+.principal{
+    display: block;
+    border-block: solid;
+    border-color: #ffe5d9;
+    height: 850px;
+    width: 100%;
+    background-color: #f8edeb;    
+}
+
+.profil{
+    height: 50%;
+    width: 50%;
+    margin-top: 10%;
+    margin-left: 30%;
+    background-image: url(../images/Capture-removebg-preview.png);
+    border-radius: 45px;
+    background-repeat: no-repeat;  
+
+
+}
+
+#text0{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#text1{
+    color: white;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 20px;
+}
+
+.bas{
+    display: block;
+    border-block: solid;
+    height: 1000px;
+    width: 100%;
+    background-color: white;
+}
+.presentation{
+    display: block;
+    border-block: solid;
+    border-color: #ffe5d9;
+    height: 400px;
+    width: 35%;
+    margin-top: 12%;
+    margin-left: 25%;
+    background-image: url(../images/moi-removebg-preview.png);
+    background-repeat: no-repeat;  
+
+
+
+
+
+}
